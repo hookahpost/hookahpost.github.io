@@ -2,7 +2,7 @@
   "name": "hookahpost.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hookahpost.github.io/hookahpost/",
+  "homepage": "https://github.com/hookahpost/hookahpost.github.io",
 
   "dependencies": {
     "bootstrap": "^4.3.1",
