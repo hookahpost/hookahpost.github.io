@@ -2,8 +2,11 @@
   "name": "hookahpost.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/hookahpost/hookahpost.github.io",
+
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
@@ -14,6 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
